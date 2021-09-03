@@ -77,16 +77,3 @@ pm2 logs
 # generate and open api documentation
 yarn docs
 ```
-
-## Docker
-
-```bash
-# run container locally
-yarn docker:dev
-
-# run container in production
-yarn docker:prod
-
-# run tests
-yarn docker:test
-```
